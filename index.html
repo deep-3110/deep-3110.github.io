@@ -21,6 +21,10 @@
       <meta name="twitter:image" content="card.532ab2cb.png">
       <meta name="twitter:app:country" content="NG">
       <link rel="stylesheet" href="src.ab891ce8.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWX4NHSK16"></script>
 <script>
@@ -37,6 +41,7 @@
     width: 25vw;
     height: 0;
 }
+
 body{
    overflow-x: hidden;
 }
@@ -68,7 +73,72 @@ body{
       </style>
    </head>
    <body style="background-color: #161623">
-     
+      <script>
+      $(function() {
+          $('.popup-youtube').magnificPopup({
+              type: 'iframe',
+              mainClass: 'mfp-fade',
+              removalDelay: 160,
+              preloader: false,
+              fixedContentPos: false
+          });
+      });
+      </script>
+      <script>
+           $(function() {
+          $('#projectbox-vid').magnificPopup({
+              type: 'iframe',
+              mainClass: 'mfp-fade',
+              removalDelay: 160,
+              preloader: false,
+              fixedContentPos: false
+          });
+      });
+      </script>
+           <script>
+            $(function() {
+           $('#projectbox-vid1').magnificPopup({
+               type: 'iframe',
+               mainClass: 'mfp-fade',
+               removalDelay: 160,
+               preloader: false,
+               fixedContentPos: false
+           });
+       });
+       </script>
+            <script>
+               $(function() {
+              $('#projectbox-vid2').magnificPopup({
+                  type: 'iframe',
+                  mainClass: 'mfp-fade',
+                  removalDelay: 160,
+                  preloader: false,
+                  fixedContentPos: false
+              });
+          });
+          </script>
+                <script>
+                  $(function() {
+                 $('#projectbox-vid3').magnificPopup({
+                     type: 'iframe',
+                     mainClass: 'mfp-fade',
+                     removalDelay: 160,
+                     preloader: false,
+                     fixedContentPos: false
+                 });
+             });
+             </script>
+                    <script>
+                     $(function() {
+                    $('#projectbox-vid4').magnificPopup({
+                        type: 'iframe',
+                        mainClass: 'mfp-fade',
+                        removalDelay: 160,
+                        preloader: false,
+                        fixedContentPos: false
+                    });
+                });
+                </script>
       <div class="cursor"></div>
       <div class="nav-container">
          <div class="nav-icon">
@@ -152,8 +222,8 @@ body{
                <section id="projects" class="project">
                   <h5 class="heading-5 sec-color mb-s">featured projects &mdash;</h5>
                   <h2 class="heading-2">Stuff I’ve worked on 📁</h2>
-                  <div class="project-box__wrapper" onclick="window.open('https://moviestat.herokuapp.com/','mywindow');">
-                     <div class="project-box">
+                  <div class="project-box__wrapper" >
+                     <div class="project-box" id="projectbox-vid" href="https://drive.google.com/file/d/1_Iu3IIRG9fG-NnR9P7fNTydlkXpRRg5o/preview">
                         <div class="project-box__link"> <!--<a href="https://moviestat.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a href="https://moviestat.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
                            <h3 class="heading-3 mb-l" style="
@@ -164,8 +234,8 @@ body{
                            <h5 class="heading-5">Python &nbsp; NLP &nbsp; HTML/CSS &nbsp; JS</h5>
                         </div>
                      </div>
-                     <div class="project-box" onclick="window.open('https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/view?usp=sharing','mywindow2');">
-                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
+                     <div class="project-box" id="projectbox-vid1" href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/preview" >
+                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/preview" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
                            <h3 class="heading-3 mb-l" style="
                            margin-bottom: 0rem;">DressMerize</h3>
@@ -174,8 +244,8 @@ body{
                           <h5 class="heading-5">Android Studio(Java,XML) &nbsp; Google Firebase</h5>
                   </div>
                      </div>
-                     <div class="project-box" onclick="window.open('https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing','mywindow3');">
-                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
+                     <div class="project-box"  id="projectbox-vid2" href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/preview">
+                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/preview" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
                            <h3 class="heading-3 mb-l" style="
                            margin-bottom: 0rem;">Tweety</h3>
@@ -183,8 +253,8 @@ body{
                       <br>
                           <h5 class="heading-5">Python</h5>      </div>
                      </div>
-                     <div class="project-box" onclick="window.open('https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/view?usp=sharing','mywindow4');">
-                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp;&nbsp; <a href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
+                     <div class="project-box"  id="projectbox-vid3" href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/preview" >
+                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp;&nbsp; <a a class="popup-youtube" href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/preview" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
                          <h3 class="heading-3 mb-l" style="
                            margin-bottom: 0rem;">HackerNews</h3>
@@ -193,15 +263,17 @@ body{
                           <h5 class="heading-5">Python</h5>    
                         </div>
                      </div>
-                    <!-- <div class="project-box">
-                        <div class="project-box__link"> <a href="https://www.behance.net/gallery/99004155/Umeh-Group-Brand-Identity" target="_blank" rel="noopener noreferrer"><img src="behance.2e4ba11c.svg" alt="behance logo"></a> </div>
+                     <div class="project-box"  id="projectbox-vid4" href="https://drive.google.com/file/d/1BQdvx9l5_LL1M-qfLqq4WsltyRWAHfHU/preview">
+                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1BQdvx9l5_LL1M-qfLqq4WsltyRWAHfHU/preview" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
-                           <h3 class="heading-3 mb-l">umeh<br>Brand Identity.</h3>
-                           <h5 class="heading-5">ai &nbsp; ps</h5>
-                        </div>
+                           <h3 class="heading-3 mb-l" style="
+                           margin-bottom: 0rem;">Soccer Data analysis</h3>
+                         <h4 class="">A Data Analysis project that analyzes FIFA data which provides analyzed and visualized data to find the most valuable player based on wage and value </h4>
+                       
+                      <br>
+                      <h5 class="heading-5">Data Analysis &nbsp; Python</h5>
                      </div>
-                  </div>
-                  -->
+            
                </section>
                <section class="web">
                   <h5 class="heading-5 sec-color mb-s">More of my works &mdash;</h5>
