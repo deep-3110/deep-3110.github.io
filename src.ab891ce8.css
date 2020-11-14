@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Calibre-SemiBold;
-	src: url(Calibre-SemiBold.21cc3335.woff) format("woff"), url(Calibre-SemiBold.2c27f793.ttf) format("truetype"), url(Calibre-Semibold.320db03b.svg#Calibre-Semibold) format("svg");
+	src: url(fonts/Calibre-SemiBold.21cc3335.woff) format("woff"), url(fonts/Calibre-SemiBold.2c27f793.ttf) format("truetype"), url(svg/Calibre-Semibold.320db03b.svg#Calibre-Semibold) format("svg");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap
@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: Calibre-Medium;
-	src: url(Calibre-Medium.bb31c6b1.woff) format("woff"), url(Calibre-Medium.cb484263.ttf) format("truetype");
+	src: url(fonts/Calibre-Medium.bb31c6b1.woff) format("woff"), url(fonts/Calibre-Medium.cb484263.ttf) format("truetype");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap
@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: Calibre-Regular;
-	src: url(Calibre-Regular.0e30637c.woff) format("woff"), url(Calibre-Regular.ad23bcd8.ttf) format("truetype");
+	src: url(fonts/Calibre-Regular.0e30637c.woff) format("woff"), url(fonts/Calibre-Regular.ad23bcd8.ttf) format("truetype");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap
@@ -488,7 +488,7 @@ section {
 	top: 0;
 	right: 0;
 	z-index: -1;
-	background: url(home-bg.19753168.svg) 100% 0 no-repeat
+	background: url(svg/home-bg.19753168.svg) 100% 0 no-repeat
 }
 
 @media only screen and (max-width:56.25em) {

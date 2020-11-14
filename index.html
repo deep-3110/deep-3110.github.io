@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Deep Shah</title>
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico">
       <meta name="theme-color" content="#000000">
       <meta name="description" content="Deep Shah Portfolio">
       <meta name="Keywords" content="Deep Shah, Portfolio, Student, Developer, Software Engineer, Mumbai, Indias">
@@ -35,8 +35,9 @@
   gtag('config', 'G-DWX4NHSK16');
 </script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-      <style>
-         .nav-container .nav-main .box-wrapper .box {
+<!--INLINE CSS STARTS-->
+<style>
+.nav-container .nav-main .box-wrapper .box {
     background-color: #1e1e2f;;
     width: 25vw;
     height: 0;
@@ -70,34 +71,50 @@ body{
     letter-spacing: -1px;
     transition: all .2s ease-in-out;
 }
-      </style>
-   </head>
-   <body style="background-color: #161623">
-      <script>
-      $(function() {
-          $('.popup-youtube').magnificPopup({
-              type: 'iframe',
-              mainClass: 'mfp-fade',
-              removalDelay: 160,
-              preloader: false,
-              fixedContentPos: false
-          });
-      });
-      </script>
-      <script>
-           $(function() {
-          $('#projectbox-vid').magnificPopup({
-              type: 'iframe',
-              mainClass: 'mfp-fade',
-              removalDelay: 160,
-              preloader: false,
-              fixedContentPos: false
-          });
-      });
-      </script>
-           <script>
+</style>
+<!--INLINE CSS ENDS-->
+<!------------------------------------------------------------------------------------------------------>
+<!--JAVASCRIPT CODE STARTS-->
+<!--Embeded Video from MovieStats-->
+<script>
+   $(function() {
+       $('.popup-youtube').magnificPopup({
+           type: 'iframe',
+           mainClass: 'mfp-fade',
+           removalDelay: 160,
+           preloader: false,
+           fixedContentPos: false
+       });
+   });
+</script>
+<!--Embeded Video from DressMerize-->
+<script>
+        $(function() {
+       $('#projectbox-vid').magnificPopup({
+           type: 'iframe',
+           mainClass: 'mfp-fade',
+           removalDelay: 160,
+           preloader: false,
+           fixedContentPos: false
+       });
+   });
+</script>
+<!--Embeded Video from Tweety-->
+<script>
+         $(function() {
+        $('#projectbox-vid1').magnificPopup({
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false
+        });
+    });
+</script>
+<!--Embeded Video from HackerNews-->
+<script>
             $(function() {
-           $('#projectbox-vid1').magnificPopup({
+           $('#projectbox-vid2').magnificPopup({
                type: 'iframe',
                mainClass: 'mfp-fade',
                removalDelay: 160,
@@ -105,10 +122,11 @@ body{
                fixedContentPos: false
            });
        });
-       </script>
-            <script>
+</script>
+<!--Embeded Video from Soccer Data Analysis-->
+<script>
                $(function() {
-              $('#projectbox-vid2').magnificPopup({
+              $('#projectbox-vid3').magnificPopup({
                   type: 'iframe',
                   mainClass: 'mfp-fade',
                   removalDelay: 160,
@@ -116,10 +134,10 @@ body{
                   fixedContentPos: false
               });
           });
-          </script>
-                <script>
+</script>
+<script>
                   $(function() {
-                 $('#projectbox-vid3').magnificPopup({
+                 $('#projectbox-vid4').magnificPopup({
                      type: 'iframe',
                      mainClass: 'mfp-fade',
                      removalDelay: 160,
@@ -127,18 +145,13 @@ body{
                      fixedContentPos: false
                  });
              });
-             </script>
-                    <script>
-                     $(function() {
-                    $('#projectbox-vid4').magnificPopup({
-                        type: 'iframe',
-                        mainClass: 'mfp-fade',
-                        removalDelay: 160,
-                        preloader: false,
-                        fixedContentPos: false
-                    });
-                });
-                </script>
+</script>
+
+<!--JAVASCRIPT CODE ENDS-->
+<!------------------------------------------------------------------------------------------------------>
+</head>
+<body style="background-color: #161623">
+
       <div class="cursor"></div>
       <div class="nav-container">
          <div class="nav-icon">
@@ -222,52 +235,56 @@ body{
                <section id="projects" class="project">
                   <h5 class="heading-5 sec-color mb-s">featured projects &mdash;</h5>
                   <h2 class="heading-2">Stuff I’ve worked on 📁</h2>
+                  <!-------------------------------MOVIESTATS PROJECT CARD------------------------------------>
                   <div class="project-box__wrapper" >
                      <div class="project-box" id="projectbox-vid" href="https://drive.google.com/file/d/1_Iu3IIRG9fG-NnR9P7fNTydlkXpRRg5o/preview">
-                        <div class="project-box__link"> <!--<a href="https://moviestat.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a href="https://moviestat.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
+                        <div class="project-box__link"> <!--<a href="https://moviestat.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a href="https://moviestat.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="svg/link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
-                           <h3 class="heading-3 mb-l" style="
-                            margin-bottom: 0rem;">MovieStats</h3>
+                           <h3 class="heading-3 mb-l" style="margin-bottom: 0rem;">MovieStats</h3>
                            <h4 class="">A real-time interactive website which provides realtime sentiment analysis of IMDB reviews and
                               tweets of any movie user enters.NLP Model Accuracy: 98.7% and F1 Score: 98</h4>
                        <br>
                            <h5 class="heading-5">Python &nbsp; NLP &nbsp; HTML/CSS &nbsp; JS</h5>
                         </div>
                      </div>
+                     
+                  <!-------------------------------DRESSMERIZE PROJECT CARD------------------------------------>
                      <div class="project-box" id="projectbox-vid1" href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/preview" >
-                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/preview" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
+                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1kJZit7S6lqpl5-kJCbyme80lWjgjj3o6/preview" target="_blank" rel="noopener noreferrer"><img src="svg/link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
-                           <h3 class="heading-3 mb-l" style="
-                           margin-bottom: 0rem;">DressMerize</h3>
+                           <h3 class="heading-3 mb-l" style="margin-bottom: 0rem;">DressMerize</h3>
                           <h4 class="">An Android based fashion application that suggests you which outfit to wear for a specific occasion</h4>
                       <br>
                           <h5 class="heading-5">Android Studio(Java,XML) &nbsp; Google Firebase</h5>
                   </div>
                      </div>
+                     
+                  <!-------------------------------TWEETS PROJECT CARD------------------------------------>
                      <div class="project-box"  id="projectbox-vid2" href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/preview">
-                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/preview" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
+                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/preview" target="_blank" rel="noopener noreferrer"><img src="svg/link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
-                           <h3 class="heading-3 mb-l" style="
-                           margin-bottom: 0rem;">Tweety</h3>
+                           <h3 class="heading-3 mb-l" style="margin-bottom: 0rem;">Tweety</h3>
                           <h4 class="">A Twitter bot with several features like showing your twitter timeline, following people, liking the tweets with a certain keyword in it, retweeting a tweet, showing tweets of a certain profile or hashtags</h4>
                       <br>
-                          <h5 class="heading-5">Python</h5>      </div>
+                          <h5 class="heading-5">Python</h5></div>
                      </div>
+                     
+                  <!-------------------------------HACKERNEWS PROJECT CARD------------------------------------>
                      <div class="project-box"  id="projectbox-vid3" href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/preview" >
-                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp;&nbsp; <a a class="popup-youtube" href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/preview" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
+                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp;&nbsp; <a a class="popup-youtube" href="https://drive.google.com/file/d/1VM1yaqKwY2SGwjmaCfVyrjHgW8tpm-_E/preview" target="_blank" rel="noopener noreferrer"><img src="svg/link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
-                         <h3 class="heading-3 mb-l" style="
-                           margin-bottom: 0rem;">HackerNews</h3>
+                         <h3 class="heading-3 mb-l" style="margin-bottom: 0rem;">HackerNews</h3>
                           <h4 class="">A Python project that scraps news from the HackerNews website and sorts it according to the most points and likes and sends it to the user via SMS. </h4>
                       <br>
                           <h5 class="heading-5">Python</h5>    
                         </div>
                      </div>
+                     
+                  <!-------------------------------SOCCER DATA ANALYSIS PROJECT CARD------------------------------------>
                      <div class="project-box"  id="projectbox-vid4" href="https://drive.google.com/file/d/1BQdvx9l5_LL1M-qfLqq4WsltyRWAHfHU/preview">
-                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1BQdvx9l5_LL1M-qfLqq4WsltyRWAHfHU/preview" target="_blank" rel="noopener noreferrer"><img src="link.66854e8a.svg" alt="link icon"></a> </div>
+                        <div class="project-box__link"> <!--<a href="https://drive.google.com/file/d/1nu9xFA_rJ9eEJfsdBsHn_STsyOIgYeQ9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="github.a1bad59c.svg" alt="github logo"></a>-->&nbsp; <a class="popup-youtube" href="https://drive.google.com/file/d/1BQdvx9l5_LL1M-qfLqq4WsltyRWAHfHU/preview" target="_blank" rel="noopener noreferrer"><img src="svg/link.66854e8a.svg" alt="link icon"></a> </div>
                         <div class="project-box__content">
-                           <h3 class="heading-3 mb-l" style="
-                           margin-bottom: 0rem;">Soccer Data analysis</h3>
+                           <h3 class="heading-3 mb-l" style="margin-bottom: 0rem;">Soccer Data analysis</h3>
                          <h4 class="">A Data Analysis project that analyzes FIFA data which provides analyzed and visualized data to find the most valuable player based on wage and value </h4>
                        
                       <br>
@@ -275,14 +292,16 @@ body{
                      </div>
             
                </section>
+               
+                  <!-------------------------------CONTACT US SECTION------------------------------------>
                <section class="web">
                   <h5 class="heading-5 sec-color mb-s">More of my works &mdash;</h5>
                   <h2 class="heading-2" style="color:white">On the Web 🌐</h2>
                   <div class="web-box__wrapper">
                      
-                     <div class="web-box"> <a href="https://www.linkedin.com/in/deep3110/" target="_blank" rel="noopener noreferrer"><img src="linkedin.5f3fc4ea.svg" alt="linkedin">linkedin</a> </div>
-                     <div class="web-box"> <a href="https://github.com/deep-3110" target="_blank" rel="noopener noreferrer"><img src="github-web.07161e96.svg" alt="github">github</a> </div>
-                     <div class="web-box"> <a href="https://www.instagram.com/deep.shah31/" target="_blank" rel="noopener noreferrer"><img src="instagram.438bb1a6.svg" alt="instagram">instagram</a> </div>
+                     <div class="web-box"> <a href="https://www.linkedin.com/in/deep3110/" target="_blank" rel="noopener noreferrer"><img src="svg/linkedin.5f3fc4ea.svg" alt="linkedin">linkedin</a> </div>
+                     <div class="web-box"> <a href="https://github.com/deep-3110" target="_blank" rel="noopener noreferrer"><img src="svg/github-web.07161e96.svg" alt="github">github</a> </div>
+                     <div class="web-box"> <a href="https://www.instagram.com/deep.shah31/" target="_blank" rel="noopener noreferrer"><img src="svg/instagram.438bb1a6.svg" alt="instagram">instagram</a> </div>
                        </div>
                </section>
                <section id="contact" class="contact">
@@ -295,7 +314,7 @@ body{
                      </div>
                      <div class="contact-box">
                        <!-- <h5 class="heading-5 sec-color mb-s">phone</h5>
-                        <a href="tel:+919869062016">+91 9869062016</a> -->
+                        <a href="tel:WRITEYOURNUMBER WITH CODE EXAMPLE +91NUMBER">ENTER YOUR NUMBER HERE</a> -->
                      </div>
                   </div>
                </section>
