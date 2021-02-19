@@ -589,11 +589,11 @@ section {
 	background: linear-gradient(180deg, #f3cbab, #feedca)
 }
 
-.project .project-box:nth-child(2) {
+.project .project-box:nth-child(3) {
 	background: linear-gradient(180deg, #b1e5f9, #f4d2fe)
 }
 
-.project .project-box:nth-child(3) {
+.project .project-box:nth-child(2) {
 	background: linear-gradient(180deg, #dbb4f3, #efb7d7)
 }
 
@@ -601,12 +601,16 @@ section {
 	background: linear-gradient(180deg, #efa971, #e4cafe)
 }
 
+
 .project .project-box:nth-child(4) .project-box__link {
 	width: min-content
 }
 
 .project .project-box:nth-child(5) {
 	background: linear-gradient(90deg, #b1e5f9, #f4d2fe)
+}
+.project .project-box:nth-child(6) {
+	background: linear-gradient(180deg, #dbb4f3, #efb7d7)
 }
 
 .project .project-box:nth-child(5) .project-box__link {
@@ -635,7 +639,8 @@ section {
 .project-box:nth-child(2),
 .project-box:nth-child(3),
 .project-box:nth-child(4),
-.project-box:nth-child(5) {
+.project-box:nth-child(5),
+.project-box:nth-child(6) {
 	background: linear-gradient(180deg, #f3cbab, #feedca)
 }
 
@@ -643,7 +648,8 @@ section {
 .project-box:nth-child(2):after,
 .project-box:nth-child(3):after,
 .project-box:nth-child(4):after,
-.project-box:nth-child(5):after {
+.project-box:nth-child(5):after,
+.project-box:nth-child(6):after {
 	content: "";
 	position: absolute;
 	width: 103%;
@@ -657,7 +663,8 @@ section {
 .project-box:nth-child(2):hover,
 .project-box:nth-child(3):hover,
 .project-box:nth-child(4):hover,
-.project-box:nth-child(5):hover {
+.project-box:nth-child(5):hover,
+.project-box:nth-child(6):hover {
 	background: none;
 	background-color: #000
 }
